@@ -44,13 +44,16 @@ body {
 
 /* Basic dark mode
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* html {
+body {
+  background-color: #e0e0e0;
+}
+html {
   filter: invert(1) hue-rotate(180deg);
 }
 html img,
 html code {
   filter: invert(1) hue-rotate(180deg);
-} */
+}
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -326,7 +329,7 @@ code {
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
-  white-space: pre;
+  white-space: pre-wrap;
 }
 
 ins {
