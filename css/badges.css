@@ -1,0 +1,59 @@
+/* Badges
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code,
+ins,
+del,
+kbd,
+samp,
+mark,
+code {
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
+  font-size: 85%;
+  white-space: nowrap;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+
+ins {
+  color: #1b5e20;
+  background-color: #e8f5e9;
+}
+
+del {
+  color: #b71c1c;
+  background-color: #ffebee;
+}
+
+samp {
+  color: #4a148c;
+  background-color: #f3e5f5;
+}
+
+kbd {
+  color: #0d47a1;
+  background-color: #e3f2fd;
+}
+
+mark {
+  color: #827717;
+  background-color: #fffde7;
+}
+
+code {
+  color: #eeeeee;
+  background-color: #424242;
+}
+
+pre > ins,
+pre > del,
+pre > samp,
+pre > kbd,
+pre > mark,
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre-wrap;
+}

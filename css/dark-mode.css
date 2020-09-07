@@ -1,0 +1,12 @@
+/* Basic dark mode
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* body {
+  background-color: #e0e0e0;
+}
+html {
+  filter: invert(1) hue-rotate(180deg);
+}
+html img,
+html code {
+  filter: invert(1) hue-rotate(180deg);
+} */
