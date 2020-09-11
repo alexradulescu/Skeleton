@@ -15,31 +15,8 @@ code {
   text-decoration: none;
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
-}
-
-ins {
-  color: #1b5e20;
-  background-color: #e8f5e9;
-}
-
-del {
-  color: #b71c1c;
-  background-color: #ffebee;
-}
-
-samp {
-  color: #4a148c;
-  background-color: #f3e5f5;
-}
-
-kbd {
-  color: #0d47a1;
-  background-color: #e3f2fd;
-}
-
-mark {
-  color: #827717;
-  background-color: #fffde7;
+  color: #424242;
+  background-color: #eeeeee;
 }
 
 code {

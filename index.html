@@ -218,9 +218,9 @@
           Lorem ipsum description
         </p>
         <aside>
-          <p>A third column</p>
-          <p>A third column</p>
-          <p>A third column</p>
+          <samp>A third column</samp>
+          <samp>A third column</samp>
+          <samp>A third column</samp>
         </aside>
 
         <!-- CODE EXAMPLE ———————————————————————————————————————— -->
@@ -228,9 +228,9 @@
 &lt;aside&gt;
 
   &lt;!-- columns will be the immediate child of an aside, no matter what child element it is--&gt;
-  &lt;p&gt;A third column&lt;/p&gt;
-  &lt;p&gt;A third column&lt;/p&gt;
-  &lt;p&gt;A third column&lt;/p&gt;
+  &lt;samp&gt;A third column&lt;/samp&gt;
+  &lt;samp&gt;A third column&lt;/samp&gt;
+  &lt;samp&gt;A third column&lt;/samp&gt;
 
 &lt;/aside&gt;
 
@@ -308,26 +308,7 @@
         </div>
 
         <!-- CODE EXAMPLE ———————————————————————————————————————— -->
-        <pre
-          class="code-example"
-        ><code class="code-example-body prettyprint">&lt;!-- Standard Headings --&gt;
-&lt;h1&gt;Heading&lt;/h1&gt;
-&lt;h2&gt;Heading&lt;/h2&gt;
-&lt;h3&gt;Heading&lt;/h3&gt;
-&lt;h4&gt;Heading&lt;/h4&gt;
-&lt;h5&gt;Heading&lt;/h5&gt;
-&lt;h6&gt;Heading&lt;/h6&gt;
 
-&lt;!-- Base type size --&gt;
-&lt;p&gt;The base type is 15px over 1.6 line height (24px)&lt;/p&gt;
-
-&lt;!-- Other styled text tags --&gt;
-&lt;strong&gt;Bolded&lt;/strong&gt;
-&lt;em&gt;Italicized&lt;/em&gt;
-&lt;a&gt;Colored&lt;/a&gt;
-&lt;u&gt;Underlined&lt;/u&gt;
-</code>
-</pre>
         <!-- ————————————————————————————————————————————————————— -->
       </div>
 
@@ -344,37 +325,14 @@
         </p>
         <div class="docs-example">
           <div>
-            <a class="button" href="http://getskeleton.com/#">Anchor button</a>
             <button>Button element</button>
             <input type="submit" value="submit input" />
             <input type="button" value="button input" />
           </div>
-          <div>
-            <a class="button button-primary" href="http://getskeleton.com/#"
-              >Anchor button</a
-            >
-            <button class="button-primary">Button element</button>
-            <input class="button-primary" type="submit" value="submit input" />
-            <input class="button-primary" type="button" value="button input" />
-          </div>
         </div>
 
         <!-- CODE EXAMPLE ———————————————————————————————————————— -->
-        <pre
-          class="code-example"
-        ><code class="code-example-body prettyprint">&lt;!-- Standard buttons --&gt;
-&lt;a class="button" href="#"&gt;Anchor button&lt;/a&gt;
-&lt;button&gt;Button element&lt;/button&gt;
-&lt;input type="submit" value="submit input"&gt;
-&lt;input type="button" value="button input"&gt;
 
-&lt;!-- Primary buttons --&gt;
-&lt;a class="button button-primary" href="#"&gt;Anchor button&lt;/a&gt;
-&lt;button class="button-primary"&gt;Button element&lt;/button&gt;
-&lt;input class="button-primary" type="submit" value="submit input"&gt;
-&lt;input class="button-primary" type="button" value="button input"&gt;
-</code>
-</pre>
         <!-- ————————————————————————————————————————————————————— -->
       </div>
 
@@ -423,38 +381,7 @@
         </div>
 
         <!-- CODE EXAMPLE ———————————————————————————————————————— -->
-        <pre
-          class="code-example"
-        ><code class="code-example-body prettyprint">&lt;!-- The above form looks like this --&gt;
-&lt;form&gt;
-  &lt;div class="row"&gt;
-    &lt;div class="six columns"&gt;
-      &lt;label for="exampleEmailInput"&gt;Your email&lt;/label&gt;
-      &lt;input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput"&gt;
-    &lt;/div&gt;
-    &lt;div class="six columns"&gt;
-      &lt;label for="exampleRecipientInput"&gt;Reason for contacting&lt;/label&gt;
-      &lt;select class="u-full-width" id="exampleRecipientInput"&gt;
-        &lt;option value="Option 1"&gt;Questions&lt;/option&gt;
-        &lt;option value="Option 2"&gt;Admiration&lt;/option&gt;
-        &lt;option value="Option 3"&gt;Can I get your number?&lt;/option&gt;
-      &lt;/select&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;label for="exampleMessage"&gt;Message&lt;/label&gt;
-  &lt;textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"&gt;&lt;/textarea&gt;
-  &lt;label class="example-send-yourself-copy"&gt;
-    &lt;input type="checkbox"&gt;
-    &lt;span class="label-body"&gt;Send a copy to yourself&lt;/span&gt;
-  &lt;/label&gt;
-  &lt;input class="button-primary" type="submit" value="Submit"&gt;
-&lt;/form&gt;
 
-&lt;!-- Always wrap checkbox and radio inputs in a label and use a &lt;span class="label-body"&gt; inside of it --&gt;
-
-&lt;!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% --&gt;
-</code>
-</pre>
         <!-- ————————————————————————————————————————————————————— -->
       </div>
 
@@ -505,23 +432,7 @@
         </div>
 
         <!-- CODE EXAMPLE ———————————————————————————————————————— -->
-        <pre
-          class="code-example"
-        ><code class="code-example-body prettyprint">&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;
-    Item 2
-    &lt;ul&gt;
-      &lt;li&gt;Item 2.1&lt;/li&gt;
-      &lt;li&gt;Item 2.2&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item 3&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;!-- Easily substitute any &lt;ul&gt; or an &lt;ol&gt; to get number lists or sublists. Skeleton doesn't support lists nested deeper than 2 levels --&gt;
-</code>
-</pre>
         <!-- ————————————————————————————————————————————————————— -->
       </div>
 
@@ -547,15 +458,7 @@
         </div>
 
         <!-- CODE EXAMPLE ———————————————————————————————————————— -->
-        <pre
-          class="code-example"
-        ><code class="code-example-body prettyprint">&lt;pre&gt;&lt;code&gt;.some-class {
-  background-color: red;
-}&lt;/code&gt;&lt;/pre&gt;
 
-&lt;!-- Remember every whitespace and break will be preserved in a &lt;pre&gt;, including indentation in your code --&gt;
-</code>
-</pre>
         <!-- ————————————————————————————————————————————————————— -->
       </div>
 
@@ -595,129 +498,7 @@
         </div>
 
         <!-- CODE EXAMPLE ———————————————————————————————————————— -->
-        <pre
-          class="code-example"
-        ><code class="code-example-body prettyprint">&lt;table class="u-full-width"&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Age&lt;/th&gt;
-      &lt;th&gt;Sex&lt;/th&gt;
-      &lt;th&gt;Location&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Dave Gamache&lt;/td&gt;
-      &lt;td&gt;26&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;San Francisco&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Dwayne Johnson&lt;/td&gt;
-      &lt;td&gt;42&lt;/td&gt;
-      &lt;td&gt;Male&lt;/td&gt;
-      &lt;td&gt;Hayward&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</code>
-</pre>
-        <!-- ————————————————————————————————————————————————————— -->
-      </div>
 
-      <!-- Queries -->
-      <div class="docs-section" id="queries">
-        <h6 class="docs-header">Media queries</h6>
-        <p>
-          Skeleton uses media queries to serve its scalable grid, but also has a
-          list of queries for convenience of styling your site across devices.
-          The queries are mobile-first, meaning they target
-          <code>min-width</code>. Mobile-first queries are how Skeleton's grid
-          is built and is the preferrable method of organizing CSS. It means all
-          styles outside of a query apply to all devices, then larger devices
-          are targeted for enhancement. This prevents small devices from having
-          to parse tons of unused CSS. The sizes for the queries are:
-        </p>
-        <div class="docs-example row">
-          <div class="six columns">
-            <ul>
-              <li><strong>Desktop HD</strong>: 1200px</li>
-              <li><strong>Desktop</strong>: 1000px</li>
-              <li><strong>Tablet</strong>: 750px</li>
-            </ul>
-          </div>
-          <div class="six columns">
-            <ul>
-              <li><strong>Phablet</strong>: 550px</li>
-              <li><strong>Mobile</strong>: 400px</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- CODE EXAMPLE ———————————————————————————————————————— -->
-        <pre
-          class="code-example"
-        ><code class="code-example-body prettyprint">/* Mobile first queries */
-
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-
-
-</code>
-</pre>
-        <!-- ————————————————————————————————————————————————————— -->
-      </div>
-
-      <!-- Utilities and Misc. -->
-      <div class="docs-section" id="utilities">
-        <h6 class="docs-header">Utilities</h6>
-        <p>
-          Skeleton has a number of small utility classes that act as easy-to-use
-          helpers. Sometimes it's better to use a utility class than create a
-          whole new class just to float an element.
-        </p>
-
-        <!-- CODE EXAMPLE ———————————————————————————————————————— -->
-        <pre
-          class="code-example"
-        ><code class="code-example-body prettyprint">/* Utility Classes */
-
-/* Make element full width */
-.u-full-width {
-  width: 100%;
-  box-sizing: border-box; }
-
-/* Make sure elements don't run outside containers (great for images in columns) */
-.u-max-full-width {
-  max-width: 100%;
-  box-sizing: border-box; }
-
-/* Float either direction */
-.u-pull-right {
-  float: right; }
-.u-pull-left {
-  float: left; }
-
-/* Clear a float */
-.u-cf {
-  content: "";
-  display: table;
-  clear: both; }
-</code>
-</pre>
         <!-- ————————————————————————————————————————————————————— -->
       </div>
     </main>
