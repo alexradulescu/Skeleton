@@ -14,184 +14,65 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="./documentation_files/css" rel="stylesheet" type="text/css" />
-
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- 
+      - Normalize
+      - Variables
+      - Base Styles
+      - Layout & Grid
+      - Typography
+      - Buttons
+      - Forms
+      - Lists
+      - Badges
+      - Other: Links & Tables & Spacing 
+    -->
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/skeleton.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/typography.css" />
+    <link rel="stylesheet" href="./css/buttons.css" />
+    <link rel="stylesheet" href="./css/form.css" />
     <link rel="stylesheet" href="./css/lists.css" />
     <link rel="stylesheet" href="./css/badges.css" />
-    <!-- <link rel="stylesheet" href="./css/custom.css" /> -->
+    <link rel="stylesheet" href="./css/other.css" />
   </head>
   <body class="code-snippets-visible">
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <main>
-      <section class="header">
-        <h2 class="title">A dead simple, responsive boilerplate.</h2>
-        <a
-          class="button button-primary"
-          href="https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip"
-          onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;skeleton&#39;, &#39;download&#39;])"
-          >Download</a
-        >
+      <section id='intro'>
+        <h2 class="title">Soul CSS<br/>
+        <h5>A simple, class-less micro css framework</h5>
         <aside>
           <div>
-            <img class="value-img" src="./documentation_files/feather.svg" />
-            Light as a feather at ~400 lines &amp; built with mobile in mind.
+            <strong>What is that?</strong>
+            <p>
+              Basically, it is a set of css rules, targeting HTML tags directly.
+              No classes, no utilities, just html tags like
+              <code>&lt;button&gt;...&lt;/button&gt;</code>
+            </p>
           </div>
           <div>
-            <img class="value-img" src="./documentation_files/pens.svg" />
-            Styles designed to be a starting point, not a UI framework.
-          </div>
-          <div>
-            <img class="value-img" src="./documentation_files/watch.svg" />
-            Quick to start with zero compiling or installing necessary.
+            <strong>Why?</strong>
+            <p>
+              For fun. This is an experiment, to try and make something nice
+              with almost nothing, in this case no css class at all.
+            </p>
           </div>
         </aside>
       </section>
 
-      <div class="navbar-spacer"></div>
-      <nav class="navbar">
-        <div class="container">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a class="navbar-link" href="http://getskeleton.com/#intro"
-                >Intro</a
-              >
-            </li>
-            <li class="navbar-item">
-              <a
-                class="navbar-link"
-                href="http://getskeleton.com/#"
-                data-popover="#codeNavPopover"
-                >Code</a
-              >
-              <div id="codeNavPopover" class="popover">
-                <ul class="popover-list">
-                  <li class="popover-item">
-                    <a class="popover-link" href="http://getskeleton.com/#grid"
-                      >Grid</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="http://getskeleton.com/#typography"
-                      >Typography</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="http://getskeleton.com/#buttons"
-                      >Buttons</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="http://getskeleton.com/#forms"
-                      >Forms</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="http://getskeleton.com/#lists"
-                      >Lists</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a class="popover-link" href="http://getskeleton.com/#code"
-                      >Code</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="http://getskeleton.com/#tables"
-                      >Tables</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="http://getskeleton.com/#queries"
-                      >Queries</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="http://getskeleton.com/#utilities"
-                      >Utilities</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="navbar-item">
-              <a class="navbar-link" href="http://getskeleton.com/#examples"
-                >Examples</a
-              >
-            </li>
-            <li class="navbar-item">
-              <a
-                class="navbar-link"
-                href="http://getskeleton.com/#"
-                data-popover="#moreNavPopover"
-                >More</a
-              >
-              <div id="moreNavPopover" class="popover">
-                <ul class="popover-list">
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="https://github.com/dhg/Skeleton"
-                      >On Github</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="https://github.com/dhg/Skeleton#browser-support"
-                      >Browsers</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="https://github.com/dhg/Skeleton#license"
-                      >License</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="https://github.com/dhg/Skeleton#extensions"
-                      >Extensions</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="https://github.com/dhg/Skeleton/releases"
-                      >Versions</a
-                    >
-                  </li>
-                  <li class="popover-item">
-                    <a
-                      class="popover-link"
-                      href="https://github.com/dhg/Skeleton#colophon"
-                      >Colophon</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
+      <br/>
+      <nav>
+        <a href="#intro">Intro</a>
+        <a href="#intro">Grid</a>
+        <a href="#intro">Typography</a>
+        <a href="#intro">Buttons</a>
+        <a href="#intro">Form</a>
+        <a href="#intro">Others</a>
       </nav>
 
       <!-- Why use Skeleton -->
