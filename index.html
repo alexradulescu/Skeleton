@@ -21,29 +21,9 @@
   </head>
   <body>
     <main>
-      <section id='intro'>
-        <h2>Soul CSS<br/>
-        <h5>A simple, class-less micro css framework</h5>
-        <aside>
-          <div>
-            <strong>What is that?</strong>
-            <p>
-              Basically, it is a set of css rules, targeting HTML tags directly.
-              No classes, no utilities, just html tags like
-              <code>&lt;button&gt;...&lt;/button&gt;</code>
-            </p>
-          </div>
-          <div>
-            <strong>Why?</strong>
-            <p>
-              For fun. This is an experiment, to try and make something nice
-              with almost nothing, in this case no css class at all.
-            </p>
-          </div>
-        </aside>
-      </section>
+      <h2>Soul CSS<br/>
+      <h5>A simple, beautiful, class-less micro css framework</h5>
 
-      <br/>
       <nav>
         <a href="#intro">Intro</a>
         <a href="#intro">Grid</a>
@@ -52,6 +32,28 @@
         <a href="#intro">Form</a>
         <a href="#intro">Others</a>
       </nav>
+
+      <hr/>
+
+      <section id='intro'>
+        
+        <h5>What is it?</h5>
+        <p>Soul is a simple, class-less micro-css framework.<br/>Let's break that down a little:
+        </p>
+        <ul>
+          <li>Simple - nothing fancy, no bootstrap, huge thing. Just a few dosens of items, all pure html tags, no fancy classes to remember. Basically just use the html tags nicely and correctly and you're all set. But we do also give you some examples ;-)</li>
+          <li>Beautiful - trying to keep it beautiful, consistent across all devices and make the best with the leats amount of efort</li>
+          <li>Class-less - no fancy classes to remember. Just use html tags cleanly and correctly and you should be all set. But we do give you examples too.</li>
+        </ul>
+
+        <h5>Why?</h5>
+        <ul>
+          <li>For fun - I like pure css stuff. And I always wanted to build a mini css framwork, but not just another bootstrap clone.</li>
+          <li>Making it beautiful - There are a few class-less css frameworks out there, but most of them don't look too grate. I want this to be quite usable in its limited scope</li>
+          <li>For quick, codesandbox prototypes - When building quick prototypes, especially in codesandbox, my favourite tool, the preview panel is basically a tablet/smartphone size viewport. And sould was mostly built for such a mobile-first environment.</li>
+        </ul>
+      </section>
+
 
       <!-- Why use Skeleton -->
       <!-- <div id="intro">
@@ -69,12 +71,13 @@
           appreciate that &lt;3
         </p>
       </div> -->
+      <hr/>
 
       <!-- Grid -->
-      <div id="grid">
+      <section id="grid">
         <h5>The grid</h5>
         <p>
-          Lorem ipsum description
+          
         </p>
         <aside>
           <samp>A third column</samp>
@@ -85,37 +88,12 @@
         <!-- CODE EXAMPLE ———————————————————————————————————————— -->
         
         <!-- ————————————————————————————————————————————————————— -->
-      </div>
+      </section>
+      <hr/>
 
       <!-- Typography -->
-      <div  id="typography">
+      <section id="typography">
         <h5>Typography</h5>
-        <p>
-          Type is all set with the <code>rems</code>, so font-sizes and spacial
-          relationships can be responsively sized based on a single
-          <code>&lt;html&gt;</code> font-size property. Out of the box, Skeleton
-          never changes the <code>&lt;html&gt;</code> font-size, but it's there
-          in case you need it for your project. All measurements are still base
-          10 though so, an <code>&lt;h1&gt;</code> with
-          <code>5.0rem</code>font-size just means <code>50px</code>.
-        </p>
-        <div>
-          <p>
-            <strong>The typography base</strong> is
-            <a href="http://www.google.com/fonts/specimen/Raleway"
-              >Raleway</a
-            >
-            served by Google, set at 15rem (15px) over a 1.6 line height
-            (24px). Other type basics like
-            <a href="http://getskeleton.com/#">anchors</a>,
-            <strong>strong</strong>, <em>emphasis</em>, and
-            <u>underline</u> are all obviously included.
-          </p>
-          <p>
-            <strong>Headings</strong> create a family of distinct sizes each
-            with specific <code>letter-spacing</code>,
-            <code>line-height</code>, and <code>margins</code>.
-          </p>
           <h1>
             Heading<span>
               <code>&lt;h1&gt;</code> 50rem</span
@@ -144,20 +122,18 @@
             Heading <span>
               <code>&lt;h6&gt;</code> 15rem</span>
           </h6>
-        </div>
-      </div>
+          <p>
+            Type basics like
+            <a href="http://getskeleton.com/#">anchors</a>,
+            <strong>strong</strong>, <em>emphasis</em>, and
+            <u>underline</u> are all obviously included.
+          </p>
+      </section>
+      <hr/>
 
       <!-- Buttons -->
-      <div  id="buttons">
+      <section id="buttons">
         <h5>Buttons</h5>
-        <p>
-          Buttons come in two basic flavors in Skeleton. The standard
-          <code>&lt;button&gt;</code> element is plain, whereas the
-          <code>.button-primary</code> button is vibrant and prominent. Button
-          styles are applied to a number of appropriate form elements, but can
-          also be arbitrarily attached to anchors with a
-          <code>.button</code> class.
-        </p>
         <div >
           <div>
             <button>Button element</button>
@@ -165,10 +141,11 @@
             <input type="button" value="button input" />
           </div>
         </div>
-      </div>
+      </section>
+      <hr/>
 
       <!-- Forms -->
-      <div id="forms">
+      <section id="forms">
         <h5>Forms</h5>
         <p>
           Forms are a huge pain, but hopefully these styles make it a bit
@@ -176,42 +153,39 @@
           height cross-browser so inputs can be stacked or placed alongside each
           other.
         </p>
-        <div>
           <form>
-            <div>
-              <div>
-                <label for="exampleEmailInput">Your email</label>
-                <input
-                  type="email"
-                  placeholder="test@mailbox.com"
-                  id="exampleEmailInput"
-                />
-              </div>
-              <div >
-                <label for="exampleRecipientInput">Reason for contacting</label>
-                <select  id="exampleRecipientInput">
-                  <option value="Option 1">Questions</option>
-                  <option value="Option 2">Admiration</option>
-                  <option value="Option 3">Can I get your number?</option>
-                </select>
-              </div>
-            </div>
-            <label for="exampleMessage">Message</label>
-            <textarea
-              placeholder="Hi Dave …"
-              id="exampleMessage"
-            ></textarea>
+            <label>
+              <span>Your email</span>
+              <input
+                type="email"
+                placeholder="test@mailbox.com"
+              />
+            </label>
+            <label >
+              <span>Reason for contacting</span>
+              <select>
+                <option value="Option 1">Questions</option>
+                <option value="Option 2">Admiration</option>
+                <option value="Option 3">Can I get your number?</option>
+              </select>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea
+                placeholder="Hi Dave …"
+              ></textarea>
+            </label>
             <label >
               <input type="checkbox" />
               <span >Send a copy to yourself</span>
             </label>
             <input type="submit" value="Submit" />
           </form>
-        </div>
-      </div>
+      </section>
+      <hr/>
 
       <!-- Lists -->
-      <div  id="lists">
+      <section id="lists">
         <h5>Lists</h5>
         <ul>
           <li>Unordered lists have basic styles</li>
@@ -249,7 +223,8 @@
             <dd><del>gamma</del></dd>
           </dl>
         </div>
-      </div>
+      </section>
+      <hr/>
 
       <!-- Code -->
       <div id="code">

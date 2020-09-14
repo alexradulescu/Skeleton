@@ -1,20 +1,16 @@
 /* Badges
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code,
-ins,
-del,
 kbd,
-samp,
-mark,
-code {
+samp {
   padding: 0.2rem 0.5rem;
   margin: 0 0.2rem;
   font-size: 85%;
   white-space: nowrap;
   border-radius: 4px;
   text-decoration: none;
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
   color: #424242;
   background-color: #eeeeee;
 }
@@ -24,11 +20,8 @@ code {
   background-color: #424242;
 }
 
-pre > ins,
-pre > del,
 pre > samp,
 pre > kbd,
-pre > mark,
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
