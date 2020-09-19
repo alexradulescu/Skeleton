@@ -9,6 +9,12 @@ a:visited {
   color: var(--blue-900);
 }
 
+nav {
+  white-space: nowrap;
+  overflow: auto;
+  max-width: 100%;
+}
+
 nav a {
   display: inline-flex;
   height: 38px;
