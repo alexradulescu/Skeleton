@@ -69,11 +69,12 @@ p {
 }
 
 var {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
   font-style: normal;
 }
 
-strong {
+strong,
+b {
   color: var(--grey-900);
 }

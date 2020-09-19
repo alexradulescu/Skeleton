@@ -21,13 +21,14 @@
   - Other: Links & Tables & Spacing  
 */
 
-@import "./normalize.css";
-@import "./variables.css";
-@import "./base.css";
-@import "./layout.css";
-@import "./typography.css";
-@import "./buttons.css";
-@import "./form.css";
-@import "./lists.css";
-@import "./badges.css";
-@import "./other.css";
+@import './normalize.css';
+@import './variables.css';
+@import './base.css';
+@import './layout.css';
+@import './typography.css';
+@import './buttons.css';
+@import './form.css';
+@import './lists.css';
+@import './badges.css';
+@import './misc.css';
+@import './print.css';
