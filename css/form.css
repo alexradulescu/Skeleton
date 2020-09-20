@@ -27,7 +27,17 @@ select[multiple] {
   padding-bottom: 8px;
 }
 
-input:focus,
+input:not([type='checkbox']):not([type='radio']):not([type='range']):hover,
+input[type='checkbox']:hover,
+input[type='radio']:hover,
+textarea:hover,
+select:hover {
+  border: 1px solid var(--grey-500);
+}
+
+input:not([type='checkbox']):not([type='radio']):not([type='range']):focus,
+input[type='checkbox']:focus,
+input[type='radio']:focus,
 textarea:focus,
 select:focus {
   border: 1px solid var(--grey-500);

@@ -11,11 +11,11 @@ kbd {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
     'Courier New', monospace;
   color: var(--grey-700);
-  background-color: var(--grey-200);
+  background-color: var(--grey-100);
 }
 
 code {
-  color: var(--grey-200);
+  color: var(--grey-100);
   background-color: var(--grey-700);
 }
 
