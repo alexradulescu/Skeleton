@@ -8,8 +8,7 @@ kbd {
   white-space: nowrap;
   border-radius: 0.4rem;
   text-decoration: none;
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
-    'Courier New', monospace;
+  font-family: var(--mono-font-family);
   color: var(--grey-700);
   background-color: var(--grey-100);
 }
