@@ -91,3 +91,7 @@ blockquote {
   margin-right: 0;
   padding-left: 24px;
 }
+
+img {
+  max-width: 100%;
+}

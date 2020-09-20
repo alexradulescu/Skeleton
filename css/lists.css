@@ -26,7 +26,7 @@ dl {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 16px;
+  padding: 8px 12px;
 }
 
 dl:not(:last-of-type) {
