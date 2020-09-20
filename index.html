@@ -26,11 +26,10 @@
 
       <nav>
         <a href="#intro">Intro</a>
-        <a href="#intro">Grid</a>
-        <a href="#intro">Typography</a>
-        <a href="#intro">Buttons</a>
-        <a href="#intro">Form</a>
-        <a href="#intro">Others</a>
+        <a href="#grid">Grid</a>
+        <a href="#typography">Typography</a>
+        <a href="#forms">Forms & Buttons</a>
+        <a href="#lists">Others</a>
       </nav>
 
       <hr/>
@@ -80,9 +79,9 @@
           
         </p>
         <aside>
-          <samp>A third column</samp>
-          <samp>A third column</samp>
-          <samp>A third column</samp>
+          <kbd>A third column</kbd>
+          <kbd>A third column</kbd>
+          <kbd>A third column</kbd>
         </aside>
 
         <!-- CODE EXAMPLE ———————————————————————————————————————— -->
@@ -142,29 +141,68 @@
         </p>
           <form>
             <label>
-              <span>Your email</span>
+              <span>Text Input</span>
+              <input
+                type="text"
+                placeholder="John James"
+              />
+            </label>
+            <label>
+              <span>Email Input</span>
               <input
                 type="email"
-                placeholder="test@mailbox.com"
+                placeholder="john.james@mailbox.com"
+              />
+            </label>
+            <label>
+              <span>Password Input</span>
+              <input
+                type="password"
+              />
+            </label>
+            <label>
+              <span>Date Input</span>
+              <input
+                type="date"
+              />
+            </label>
+            <label>
+              <span>Month Input</span>
+              <input
+                type="month"
               />
             </label>
             <label >
-              <span>Reason for contacting</span>
+              <span>Select</span>
               <select>
-                <option value="Option 1">Questions</option>
-                <option value="Option 2">Admiration</option>
-                <option value="Option 3">Can I get your number?</option>
+                <option value="Option 1">Nord</option>
+                <option value="Option 2">South</option>
+                <option value="Option 3">East</option>
+                <option value="Option 3">West</option>
+              </select>
+            </label>
+            <label >
+              <span>MultiSelect</span>
+              <select multiple>
+                  <option value="Option 1">Nord</option>
+                  <option value="Option 2">South</option>
+                  <option value="Option 3">East</option>
+                  <option value="Option 3">West</option>
               </select>
             </label>
             <label>
-              <span>Message</span>
+              <span>Textarea</span>
               <textarea
                 placeholder="Hi Dave …"
               ></textarea>
             </label>
             <label >
               <input type="checkbox" />
-              <span >Send a copy to yourself</span>
+              <span>Checkbox input</span>
+            </label>
+            <label >
+              <input type="radio" />
+              <span >Radio input</span>
             </label>
             
             <button type='submit'>Submit</button>
@@ -216,7 +254,7 @@
       <hr/>
 
       <!-- Code -->
-      <div id="code">
+      <section id="code">
         <h5>Code</h5>
         <p>
           Code styling is kept basic – just wrap anything in a
@@ -235,43 +273,72 @@
   background-color: red;
 }</code></pre>
         </div>
-      </div>
+      </section>
+      <hr/>
+
+      <!-- Blockquote -->
+      <section id="Blockquote">
+        <h5>Blockquote</h5>
+        <blockquote
+          cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"
+        >
+          'The HTML blockquote Element (or HTML Block Quotation Element) indicates
+          that the enclosed text is an extended quotation. Usually, this is
+          rendered visually by indentation (see
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote#Usage_notes"
+            >Notes</a
+          >
+          for how to change it). A URL for the source of the quotation may be
+          given using the
+          <code>cite</code> attribute, while a text representation of the source
+          can be given using the <code>&lt;cite&gt;</code> cite element.'
+
+            <cite>MDN, 'The Block Quotation element'</cite>
+        </blockquote>
+      </section>
+      <hr/>
+
+      <!-- Image -->
+      <section id="image">
+        <h5>Image</h5>
+        <img src="https://placekitten.com/408/287" alt="Example kitten" />
+      </section>
+      <hr/>
 
       <!-- Tables -->
-      <div  id="tables">
+      <section id="tables">
         <h5>Tables</h5>
         <p>
           Be sure to use properly formed table markup with
           <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when
           building a <code>table</code>.
         </p>
-        <div >
-          <table >
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Sex</th>
-                <th>Location</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Dave Gamache</td>
-                <td>26</td>
-                <td>Male</td>
-                <td>San Francisco</td>
-              </tr>
-              <tr>
-                <td>Dwayne Johnson</td>
-                <td>42</td>
-                <td>Male</td>
-                <td>Hayward</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
+        <table >
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Sex</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dave Gamache</td>
+              <td>26</td>
+              <td>Male</td>
+              <td>San Francisco</td>
+            </tr>
+            <tr>
+              <td>Dwayne Johnson</td>
+              <td>42</td>
+              <td>Male</td>
+              <td>Hayward</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
   </body>
 </html>

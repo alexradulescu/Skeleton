@@ -10,13 +10,13 @@ kbd {
   text-decoration: none;
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
     'Courier New', monospace;
-  color: #424242;
-  background-color: #eeeeee;
+  color: var(--grey-700);
+  background-color: var(--grey-200);
 }
 
 code {
-  color: #eeeeee;
-  background-color: #424242;
+  color: var(--grey-200);
+  background-color: var(--grey-700);
 }
 
 pre {

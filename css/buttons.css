@@ -1,9 +1,8 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button {
-  display: inline-block;
   height: 38px;
-  padding: 0 24px;
+  padding: 0 32px;
   color: var(--grey-700);
   text-align: center;
   font-size: 12px;
@@ -12,18 +11,17 @@ button {
   letter-spacing: 0.1rem;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
   border-radius: 6px;
-  border: 1px solid var(--grey-300);
-  background-color: var(--grey-200);
+  border: 1px solid var(--grey-400);
+  background-color: transparent;
   cursor: pointer;
-  box-sizing: border-box;
   margin-bottom: 1.2rem;
 }
+
 button:hover,
 button:focus {
   color: var(--grey-900);
-  background-color: var(--grey-300);
+  border-color: var(--grey-600);
   outline: 0;
 }
 
@@ -32,6 +30,7 @@ button[type='submit'] {
   background-color: var(--blue-800);
   border-color: var(--blue-800);
 }
+
 button[type='submit']:hover,
 button[type='submit']:focus {
   color: #fff;

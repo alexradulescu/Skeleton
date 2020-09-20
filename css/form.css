@@ -10,7 +10,7 @@ select {
   line-height: 38px;
   font-size: 14px;
   padding: 0 12px;
-  background-color: #fff;
+  background-color: var(--white);
   border: 1px solid var(--grey-400);
   margin-bottom: 1.2rem;
   border-radius: 6px;
@@ -52,11 +52,11 @@ input[type='radio'] {
   -moz-appearance: none;
   appearance: none;
   border: 1px solid var(--grey-500);
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   display: inline-flex;
   cursor: pointer;
-  vertical-align: middle;
+  vertical-align: text-bottom;
 }
 
 input[type='checkbox']:hover,
@@ -72,35 +72,37 @@ input[type='radio'] {
   border-radius: 50%;
 }
 
+input[type='radio']:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background-color: var(--white);
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 50%;
+}
+
+input[type='checkbox']:before {
+  content: '';
+  width: 12px;
+  height: 6px;
+  transform: rotate(-45deg);
+  border-left: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
+  margin-top: 2px;
+  margin-left: 1px;
+}
+
 input[type='checkbox']:checked,
 input[type='radio']:checked {
   background-color: var(--blue-500);
   border: 1px solid var(--blue-500);
 }
+
 input[type='checkbox']:checked:hover,
 input[type='radio']:checked:hover {
   background-color: var(--blue-600);
   border: 1px solid var(--blue-600);
-}
-
-input[type='radio']:checked:before {
-  content: '';
-  width: 6px;
-  height: 6px;
-  background-color: #fff;
-  margin-top: 3px;
-  margin-left: 3px;
-  border-radius: 50%;
-}
-input[type='checkbox']:checked:before {
-  content: '';
-  width: 10px;
-  height: 5px;
-  transform: rotate(-45deg);
-  border-left: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  margin-top: 2px;
-  margin-left: 1px;
 }
 
 label:not([for]),
