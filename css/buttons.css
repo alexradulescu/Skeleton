@@ -29,12 +29,12 @@ button:focus {
 
 button[type='submit'] {
   color: var(--white);
-  background-color: var(--grey-900);
-  border-color: var(--grey-900);
+  background-color: var(--blue-800);
+  border-color: var(--blue-800);
 }
 button[type='submit']:hover,
 button[type='submit']:focus {
   color: #fff;
-  background-color: var(--grey-800);
-  border-color: var(--grey-800);
+  background-color: var(--blue-700);
+  border-color: var(--blue-700);
 }
