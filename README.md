@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/dhg/Skeleton)
+
 # [Skeleton](http://getskeleton.com)
 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
 
